@@ -1,0 +1,34 @@
+.product-container {
+  display: flex;
+  margin: 15px 0px;
+  padding: 5px 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.image-container {
+  background-color: aliceblue;
+  height: 70px;
+  width: 70px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.name-container {
+  width: 140px;
+}
+
+.detailsContainer {
+  display: flex;
+  margin: 0px 20px;
+}
+
+.details {
+  width: 140px;
+}
+
+/* .options {
+    width: 220px;
+    margin-left: 80px;
+} */
+

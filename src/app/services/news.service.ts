@@ -1,0 +1,77 @@
+import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
+@Injectable({
+  providedIn: 'root'
+})
+export class NewsService {
+  News = [
+    {
+      id:1,
+      author:'aaa',
+      title:'abc',
+      content:'abc',
+      description:'abc',
+      publishedAt:'abc',
+      url:'./assets/logo.jpeg'
+    },
+    {
+      id:2,
+      author:'bbb',
+      title:'abc',
+      content:'abc',
+      description:'abc',
+      publishedAt:'abc',
+      url:'./assets/logo.jpeg'
+    },{
+      id:3,
+      author:'ccc',
+      title:'abc',
+      content:'abc',
+      description:'abc',
+      publishedAt:'abc',
+      url:'./assets/logo.jpeg'
+    },{
+      id:4,
+      author:'ccc',
+      title:'abc',
+      content:'abc',
+      description:'abc',
+      publishedAt:'abc',
+      url:'./assets/logo.jpeg'
+    },
+    {
+      id:5,
+      author:'aaa',
+      title:'abc',
+      content:'abc',
+      description:'abc',
+      publishedAt:'abc',
+      url:'./assets/logo.jpeg'
+    },
+    {
+      id:6,
+      author:'bbb',
+      title:'abc',
+      content:'abc',
+      description:'abc',
+      publishedAt:'abc',
+      url:'./assets/logo.jpeg'
+    },{
+      id:7,
+      author:'ccc',
+      title:'abc',
+      content:'abc',
+      description:'abc',
+      publishedAt:'abc',
+      url:'./assets/logo.jpeg'
+    },{
+      id:8,
+      author:'ccc',
+      title:'abc',
+      content:'abc',
+      description:'abc',
+      publishedAt:'abc',
+      url:'./assets/logo.jpeg'
+    },
+  ];
+}
